@@ -1,0 +1,20 @@
+
+.animation_canvas{
+	text-align: center;
+	width: 600px;
+	height:400px;
+	overflow:hidden;
+	max-width: 1180px;
+    position: relative;
+    margin: 70px auto;
+	
+}
+.slider_panel{width:3000px; position: relative; }
+.slider_image{float:left; width: 600px; height:400px; }
+.slider_text_panel{position:absolute; top:200px; left:50px; color: #fff;}
+.slider_text{position:absolute; width: 250px; height:150px; color: #fff;}
+
+.control_panel{position:absolute; top: 380px; left:270px; height: 15px; overflow: hidden;}
+.control_button{width:15px; height: 45px; position:relative; float:left; background:url(../images/point_button.png); cursor:pointer;}
+.control_button:hover{top:-15px;}
+.control_button.active{top:-30px;}

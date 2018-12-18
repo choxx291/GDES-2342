@@ -1,0 +1,47 @@
+.Countryside{
+		 text-align: center;
+         margin-bottom: 30px;
+         margin-top: 30px;
+        }
+
+.TopLogo {
+	font-family: Caveat, sans-serif;
+    font-weight: 500;
+    font-size: 150px;
+	color: #333;
+	text-shadow: 7px 7px 7px rgba(3,3,3, 0.3);
+	
+}
+
+.TopLogoSecond {
+	font-family: Caveat, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+	background: #f5f5dc;
+	margin-top: 40px;
+	color: #333;
+	text-shadow: 3px 3px 3px rgba(3,3,3, 0.3);
+	
+}
+
+#main1{width: 1350px; height: 680px; float: left; position: relative; left: 50%; margin-left: -675px; clear: both;}
+#main1_title{width: 1335px; height: 120px; margin: 0 auto;}
+#main1_banner{width:1500px; height: 942px; margin-left: -30px; overflow: hidden; }
+#main1_banner ul{float: left; list-style:none;}
+#main1_banner ul li{float: left; position: relative; z-index:10;}
+#main1_banner .color{width: 171px; height: 0px;
+	text-align: center; background: #f5f5dc; position: absolute; bottom: 0px; z-index:100; opacity: 0.6; 
+	transition-property:height;
+	transition-duration: 0.3s;
+}
+#main1_banner .color a{
+	display: block;
+	color: #f5f5dc;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 20px;
+	text-decoration: none;
+}
+#main1_banner li:hover .color{height: 180px;}
+#main1_banner .color a:hover{color: #000;}
